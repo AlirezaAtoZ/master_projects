@@ -4,6 +4,7 @@ from schemdraw import flow
 
 
 class HMM:
+    # todo add forward alg and train alg
     def __init__(
             self, states: list, observations: list,
             A: np.ndarray, B: np.ndarray, PI: np.ndarray) -> None:
