@@ -3,11 +3,6 @@ import schemdraw
 from schemdraw import flow
 
 
-def _get_max_ids(x):
-    y = np.argwhere(x == np.amax(x)).tolist()
-    return y
-
-
 class HMM:
     def __init__(
             self, states: list, observations: list,
